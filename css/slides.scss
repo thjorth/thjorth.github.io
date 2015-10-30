@@ -11,11 +11,19 @@
 }
 .slide-header {
 	@include font-bangers();
-	font-size: 2rem;
+	font-size: 3vw;
+	transform: rotate(-2deg);
+	margin: -5vh -2vw 0;
+	padding: 7vh 10vw 3vh;
 }
 
 html {
-	font-size: 100%;
+	//font-size: 3ems;
+	overflow: hidden;
+}
+body {
+	background: $color5;
+	
 }
 
 .page-content {
@@ -27,6 +35,6 @@ html {
 }
 
 .slide-header {
-	padding: 3rem 10rem;
+	//padding: 3rem 10rem;
 	background: $color2;
 }
