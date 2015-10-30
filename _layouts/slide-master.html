@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    {% include head.html %}
+    {% include slides/head-slides-general.html %} 
+  </head>
+  <body>
+
+    
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+ 
+    
+    <script src="{{ "/assets/js/slides.js" | prepend: site.baseurl }}"></script>
+  </body>
+
+</html>

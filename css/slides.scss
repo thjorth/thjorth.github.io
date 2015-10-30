@@ -1,0 +1,32 @@
+---
+---
+
+@import 
+	"slides/typography",
+	"slides/palette"
+;
+
+.slide {
+	
+}
+.slide-header {
+	@include font-bangers();
+	font-size: 2rem;
+}
+
+html {
+	font-size: 100%;
+}
+
+.page-content {
+	padding: 0;
+}
+.wrapper {
+	padding: 0;
+	max-width: none;
+}
+
+.slide-header {
+	padding: 3rem 10rem;
+	background: $color2;
+}

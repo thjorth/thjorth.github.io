@@ -1,0 +1,15 @@
+---
+layout: slide-master
+---
+<div class="slide">
+
+  <header class="slide-header">
+    <h1 class="slide-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="slide-content">
+    {{ content }}
+  </article>
+
+  <a id="next" href="{{ page.next | prepend: site.baseurl }}">next &gt;</a>
+</div>
