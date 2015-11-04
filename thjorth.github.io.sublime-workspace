@@ -23,7 +23,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 741,
+				"buffer_size": 742,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "css/slides.scss",
 			"settings":
 			{
-				"buffer_size": 302,
+				"buffer_size": 430,
 				"line_ending": "Windows"
 			}
 		},
@@ -92,13 +92,10 @@
 			}
 		},
 		{
-			"contents": "@mixin font-bangers() {\n	font-family: 'Bangers', 'Comic Sans';\n}\n",
 			"file": "_sass/slides/_typography.scss",
-			"file_size": 66,
-			"file_write_time": 130905412127601056,
 			"settings":
 			{
-				"buffer_size": 65,
+				"buffer_size": 64,
 				"line_ending": "Windows"
 			}
 		}
@@ -153,7 +150,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -217,15 +214,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 741,
+						"buffer_size": 742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								703,
-								703
+								532,
+								532
 							]
 						],
 						"settings":
@@ -408,23 +405,24 @@
 					"file": "css/slides.scss",
 					"settings":
 					{
-						"buffer_size": 302,
+						"buffer_size": 430,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								193,
-								193
+								204,
+								204
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 11.0,
+						"translation.y": 22.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -460,15 +458,15 @@
 					"file": "_sass/slides/_typography.scss",
 					"settings":
 					{
-						"buffer_size": 65,
+						"buffer_size": 64,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								65,
-								65
+								64,
+								64
 							]
 						],
 						"settings":
