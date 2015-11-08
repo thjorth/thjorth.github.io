@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"paths",
+				"pathsList"
+			],
+			[
+				"path",
+				"pathsList"
+			],
+			[
+				"pat",
+				"paths"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
 				"sh",
 				"showNextHiddenElm"
 			],
@@ -35,7 +51,24 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 774,
+				"buffer_size": 817,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "map.html",
+			"settings":
+			{
+				"buffer_size": 1431,
+				"line_ending": "Windows",
+				"name": "---"
+			}
+		},
+		{
+			"file": "assets/js/map.js",
+			"settings":
+			{
+				"buffer_size": 753,
 				"line_ending": "Windows"
 			}
 		},
@@ -142,6 +175,14 @@
 				"buffer_size": 129,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "service-worker.js",
+			"settings":
+			{
+				"buffer_size": 588,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -168,6 +209,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/thomas.hjorth/Documents/CPH/worldmap-worldmap-photos-wallpapers-galleries-full-hd_50290fb555fd4_w1500.jpg",
 		"/C/work/thjorth.github.io/_includes/slides/head-slides-general.html",
 		"/C/work/thjorth.github.io/css/slides.scss",
 		"/C/work/thjorth.github.io/_includes/head.html",
@@ -198,7 +240,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
@@ -228,6 +270,7 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -261,15 +304,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 774,
+						"buffer_size": 817,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24,
-								24
+								789,
+								789
 							]
 						],
 						"settings":
@@ -287,6 +330,59 @@
 				},
 				{
 					"buffer": 2,
+					"file": "map.html",
+					"settings":
+					{
+						"buffer_size": 1431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								649,
+								649
+							]
+						],
+						"settings":
+						{
+							"auto_name": "---",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/js/map.js",
+					"settings":
+					{
+						"buffer_size": 753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								626,
+								626
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "_layouts/slide.html",
 					"settings":
 					{
@@ -312,7 +408,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "_layouts/slide-image.html",
 					"settings":
 					{
@@ -338,7 +434,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "_layouts/slide-master",
 					"settings":
 					{
@@ -364,7 +460,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "_layouts/slide-master.html",
 					"settings":
 					{
@@ -392,7 +488,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "assets/js/slides.js",
 					"settings":
 					{
@@ -414,13 +510,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 182.0,
+						"translation.y": 89.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "_sass/slides/_typography.scss",
 					"settings":
 					{
@@ -446,7 +542,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "front-end-tooling/slide-02-the-truth.md",
 					"settings":
 					{
@@ -472,7 +568,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "front-end-tooling/slide-00-the-modern-front-end-tool-stack",
 					"settings":
 					{
@@ -498,7 +594,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "front-end-tooling/slide-03-grumpy.md",
 					"settings":
 					{
@@ -524,7 +620,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "front-end-tooling/slide-04.md",
 					"settings":
 					{
@@ -550,7 +646,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "front-end-tooling/slide-01-strangelove.md",
 					"settings":
 					{
@@ -576,7 +672,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 15,
 					"file": "css/slides.scss",
 					"settings":
 					{
@@ -603,7 +699,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 16,
 					"file": "front-end-tooling/slide-00-the-modern-front-end-tool-stack.md",
 					"settings":
 					{
@@ -621,6 +717,32 @@
 						"settings":
 						{
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "service-worker.js",
+					"settings":
+					{
+						"buffer_size": 588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
