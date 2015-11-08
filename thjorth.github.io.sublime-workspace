@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"sh",
+				"showNextHiddenElm"
+			],
+			[
+				"pa",
+				"pathname"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
 				"key",
 				"keyCode"
 			]
@@ -23,7 +35,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 742,
+				"buffer_size": 774,
 				"line_ending": "Windows"
 			}
 		},
@@ -31,7 +43,15 @@
 			"file": "_layouts/slide.html",
 			"settings":
 			{
-				"buffer_size": 294,
+				"buffer_size": 364,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_layouts/slide-image.html",
+			"settings":
+			{
+				"buffer_size": 506,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,39 +75,7 @@
 			"file": "assets/js/slides.js",
 			"settings":
 			{
-				"buffer_size": 313,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_layouts/default.html",
-			"settings":
-			{
-				"buffer_size": 268,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/head.html",
-			"settings":
-			{
-				"buffer_size": 801,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/slides.scss",
-			"settings":
-			{
-				"buffer_size": 430,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_includes/slides/head-slides-general.html",
-			"settings":
-			{
-				"buffer_size": 236,
+				"buffer_size": 1289,
 				"line_ending": "Windows"
 			}
 		},
@@ -96,6 +84,62 @@
 			"settings":
 			{
 				"buffer_size": 64,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-end-tooling/slide-02-the-truth.md",
+			"settings":
+			{
+				"buffer_size": 75,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-end-tooling/slide-00-the-modern-front-end-tool-stack",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-end-tooling/slide-03-grumpy.md",
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-end-tooling/slide-04.md",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-end-tooling/slide-01-strangelove.md",
+			"settings":
+			{
+				"buffer_size": 69,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/slides.scss",
+			"settings":
+			{
+				"buffer_size": 1169,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front-end-tooling/slide-00-the-modern-front-end-tool-stack.md",
+			"settings":
+			{
+				"buffer_size": 129,
 				"line_ending": "Windows"
 			}
 		}
@@ -124,6 +168,10 @@
 	},
 	"file_history":
 	[
+		"/C/work/thjorth.github.io/_includes/slides/head-slides-general.html",
+		"/C/work/thjorth.github.io/css/slides.scss",
+		"/C/work/thjorth.github.io/_includes/head.html",
+		"/C/work/thjorth.github.io/_layouts/default.html",
 		"/C/Users/thomas.hjorth/Downloads/palette.scss",
 		"/C/work/thjorth.github.io/_sass/slides/typography.scss",
 		"/C/work/thjorth.github.io/_includes/head-slides-general.html",
@@ -180,7 +228,6 @@
 	"groups":
 	[
 		{
-			"selected": 8,
 			"sheets":
 			[
 				{
@@ -214,15 +261,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 742,
+						"buffer_size": 774,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								532,
-								532
+								24,
+								24
 							]
 						],
 						"settings":
@@ -233,7 +280,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -243,15 +290,15 @@
 					"file": "_layouts/slide.html",
 					"settings":
 					{
-						"buffer_size": 294,
+						"buffer_size": 364,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								168
+								364,
+								364
 							]
 						],
 						"settings":
@@ -266,6 +313,32 @@
 				},
 				{
 					"buffer": 3,
+					"file": "_layouts/slide-image.html",
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								449,
+								449
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "_layouts/slide-master",
 					"settings":
 					{
@@ -291,7 +364,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "_layouts/slide-master.html",
 					"settings":
 					{
@@ -319,19 +392,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "assets/js/slides.js",
 					"settings":
 					{
-						"buffer_size": 313,
+						"buffer_size": 1289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								298,
-								298
+								1125,
+								1125
 							]
 						],
 						"settings":
@@ -341,120 +414,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "_layouts/default.html",
-					"settings":
-					{
-						"buffer_size": 268,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79,
-								79
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 182.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "_includes/head.html",
-					"settings":
-					{
-						"buffer_size": 801,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								442,
-								487
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "css/slides.scss",
-					"settings":
-					{
-						"buffer_size": 430,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								204,
-								204
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 22.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "_includes/slides/head-slides-general.html",
-					"settings":
-					{
-						"buffer_size": 236,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								233,
-								233
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
 					"file": "_sass/slides/_typography.scss",
 					"settings":
 					{
@@ -472,6 +438,189 @@
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "front-end-tooling/slide-02-the-truth.md",
+					"settings":
+					{
+						"buffer_size": 75,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "front-end-tooling/slide-00-the-modern-front-end-tool-stack",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "front-end-tooling/slide-03-grumpy.md",
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "front-end-tooling/slide-04.md",
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "front-end-tooling/slide-01-strangelove.md",
+					"settings":
+					{
+						"buffer_size": 69,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "css/slides.scss",
+					"settings":
+					{
+						"buffer_size": 1169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1040,
+								1040
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "front-end-tooling/slide-00-the-modern-front-end-tool-stack.md",
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -538,6 +687,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 266.0,
+	"side_bar_width": 291.0,
 	"status_bar_visible": true
 }
