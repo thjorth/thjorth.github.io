@@ -19,10 +19,10 @@
 			path.getBoundingClientRect();
 
 			path.style.visibility = "visible";
-			path.style.transition = path.style.WebkitTransition = "stroke-dashoffset 1.5s ease-in-out";
+			path.style.transition = path.style.WebkitTransition = "stroke-dashoffset 2s ease-in-out";
 			path.style.strokeDashoffset = "0";
 
-			setTimeout(showPath, 200);
+			setTimeout(showPath, 300);
 		}
 	}
 
