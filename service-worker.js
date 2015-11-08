@@ -17,7 +17,7 @@ self.addEventListener('install', function installer (event) {
 });
 
 self.addEventListener("fetch", function fetcher (event) {
-	console.log(event.request);
+	//console.log(event.request);
 	if (regexes.cssMain.test(event.request.url)) {
 		//event.respondWith(new Response("body { background: red; }"));
 		//return;
