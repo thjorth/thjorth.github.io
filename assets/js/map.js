@@ -1,6 +1,5 @@
 (function () {
 	var
-		$ = document.querySelectorAll;
 		pathsList = document.querySelectorAll("#routes path"),
 		paths = [];
 
@@ -13,7 +12,6 @@
 			var path = paths.pop(),
 				length = path.getTotalLength();
 
-			console.log(length);
 			path.style.transition = path.style.WebkitTransition = "none";
 			path.style.strokeDasharray = length + " " + length;
 			path.style.strokeDashoffset = length;

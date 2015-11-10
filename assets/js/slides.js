@@ -2,15 +2,20 @@
 
 	var 
 		next = document.querySelector("#next"),
+		body = document.querySelector("body"),
 		dir = document.location.pathname.replace(/[^\/]+$/, ""),
 		siblingPages,
 		next,
-		reveal = [];
+		reveal = [],
+		slideType = body.dataset.type,
+		delay = body.dataset.delay || 5;
+
+	console.log(slideType);
 
 	document.addEventListener("keydown", function (e) {
 		console.log("keydown:");
 		console.log(e);
-		if (e.keyCode === 32) {
+		if (e.keyCode === 32 && slideType === "reveal") {
 			e.preventDefault();
 			if (reveal.length > 0) {
 				showNextHiddenElm();
@@ -35,7 +40,7 @@
 		return previousValue;
 	}, undefined);
 
-	if (document.querySelector(".slide.reveal")) {
+	if (slideType === "reveal" || slideType === "reveal-auto") {
 		var domElms = document.querySelectorAll(".slide-content > *");
 		for (var i = 0; i < domElms.length; i++) {
 			reveal.push(domElms[i]);
@@ -48,6 +53,9 @@
 	function showNextHiddenElm() {
 		var firstElm = reveal.shift();
 		firstElm.style.opacity = "1.0";
+		if (slideType === "reveal-auto" && reveal.length > 0) {
+			setTimeout(showNextHiddenElm, delay * 1000);
+		}
 	}
 
 	console.log(siblingPages);

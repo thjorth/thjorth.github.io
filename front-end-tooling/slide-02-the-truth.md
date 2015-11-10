@@ -1,6 +1,6 @@
 ---
 title: The Truth
-type: reveal
+type: reveal-auto
 ---
 
 ## The truth is

@@ -67,7 +67,9 @@ body {
 		padding-top: 10vh;
 	}
 
-	.reveal & > * {
+
+	.reveal & > *,
+	.reveal-auto & > *  {
 		opacity: 0;
 		transition: all 0.5s ease-in-out;
 	}
