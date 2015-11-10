@@ -1,5 +1,5 @@
 ---
-type: reveal
+type: reveal-auto
 ---
 
 ### SASS / LESS

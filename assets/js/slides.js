@@ -7,7 +7,7 @@
 		next,
 		reveal = [],
 		slideType = body.dataset.type,
-		delay = body.dataset.delay || 5;
+		delay = body.dataset.delay || 1;
 
 	console.log(slideType);
 
