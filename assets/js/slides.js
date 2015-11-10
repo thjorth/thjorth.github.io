@@ -1,7 +1,6 @@
 (function () {
 
 	var 
-		next = document.querySelector("#next"),
 		body = document.querySelector("body"),
 		dir = document.location.pathname.replace(/[^\/]+$/, ""),
 		siblingPages,
@@ -13,8 +12,6 @@
 	console.log(slideType);
 
 	document.addEventListener("keydown", function (e) {
-		console.log("keydown:");
-		console.log(e);
 		if (e.keyCode === 32 && slideType === "reveal") {
 			e.preventDefault();
 			if (reveal.length > 0) {
@@ -22,9 +19,11 @@
 			} else if (next && next.url) {
 				document.location.pathname = next.url;
 			}
+		} else if (e.keyCode === 32 && next && next.url) {
+			document.location.pathname = next.url;
 		} else if (e.keyCode === 36) {
 			document.location.pathname = "/";
-		}
+		} 
 	});
 
 	siblingPages = data.pages.filter(function (page) {
