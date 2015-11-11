@@ -4,8 +4,10 @@ type: reveal
 delay: 3
 ---
 
-### Normal workflow:
+Normal workflow:
 
 Edit -> Refresh the browser -> Experiment
+
+Rinse and repeat
 
 # Ad nauseum...
