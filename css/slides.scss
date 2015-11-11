@@ -94,3 +94,19 @@ body {
 
 h1 { font-size: 2em; }
 h2 { font-size: 1.6em; }
+
+.youtube {
+	width: 100vw;
+	height: 100vh;
+	padding: 5vh 5vw;
+
+	iframe {
+		width: 90vw;
+		height: 90vh;
+
+		&.with-header {
+			height: 70vh;
+			margin-top: 20vh;
+		}
+	}
+}
