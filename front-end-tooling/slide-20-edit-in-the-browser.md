@@ -1,6 +1,6 @@
 ---
 layout: slide/youtube
-youtube: ayl6stLufS4
-duration: 10
+youtube: 7z7NnQkJ10k
+duration: 60
 title: The browser as editor
 ---
