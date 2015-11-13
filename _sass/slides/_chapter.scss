@@ -1,0 +1,28 @@
+.chapter {
+	text-align: right;
+	.slide-header { 
+		height: 40vh;
+		text-align: right;
+		padding: 2vh 2vw;
+		position: relative;
+
+		transform: rotate(0);
+		margin: 0;
+		width: 100%;
+	}
+
+	.slide-title {
+		position: absolute;
+		right: 2vw;
+		bottom: 2vh;
+	}
+
+	.slide-content {
+		height: 60vh;
+		padding: 4vh 2vw;
+		text-align: right;
+
+		font-size: 5vh;
+		display: block;
+	}
+}
