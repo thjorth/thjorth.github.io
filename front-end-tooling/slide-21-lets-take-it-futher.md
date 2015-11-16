@@ -4,6 +4,4 @@ type: reveal-auto
 delay: 1
 ---
 
-# Let's take it further!
-
-... by using source maps
+# Let's take a gulp of the kool-aid!

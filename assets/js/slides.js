@@ -5,6 +5,7 @@
 		dir = document.location.pathname.replace(/[^\/]+$/, ""),
 		siblingPages,
 		next,
+		prev,
 		reveal = [],
 		slideType = body.dataset.type,
 		delay = body.dataset.delay || 1,
@@ -25,13 +26,22 @@
 			gotoNext();
 		} else if (e.keyCode === 36) {
 			document.location.pathname = "/";
-		} 
+		} else if (e.keyCode === 9) {
+			e.preventDefault();
+			gotoPrevious();
+		}
 	});
 
-	// cal this to go to the next slide
+	// call this to go to the next slide
 	function gotoNext () {
 		if (next && next.url) {
 			document.location.pathname = next.url;
+		}
+	}
+
+	function gotoPrevious() {
+		if (prev && prev.url) {
+			document.location.pathname = prev.url;
 		}
 	}
 
@@ -41,7 +51,6 @@
 	});
 	// get a reference to the next page
 	next = siblingPages.reduce(function (previousValue, currentValue) {
-
 		if (currentValue.url === document.location.pathname) {
 			return "found";
 		} else if (previousValue === "found") {
@@ -49,6 +58,19 @@
 		}
 		return previousValue;
 	}, undefined);
+	prev = siblingPages.reduce(function (previousValue, currentValue, index, arr) {
+		if (index === 0) {
+			return null;
+		}
+		if (currentValue.url === document.location.pathname) {
+			return previousValue;
+		} 
+		if (index >= arr.length-1) {
+			return previousValue;
+		}
+		return currentValue;
+	});
+
 
 	// handle the the two (and very similar versions) of the reveal slide type
 	if (slideType === "reveal" || slideType === "reveal-auto") {

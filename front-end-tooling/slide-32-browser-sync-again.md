@@ -1,0 +1,5 @@
+---
+type: reveal-auto
+---
+
+# Browsersync!
