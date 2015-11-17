@@ -1,4 +1,4 @@
 ---
 layout: slide-image
-image: /assets/img/ugly.jpg
+image: /assets/img/rekall.jpg
 ---
