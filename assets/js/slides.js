@@ -26,7 +26,7 @@
 			gotoNext();
 		} else if (e.keyCode === 36) {
 			document.location.pathname = "/";
-		} else if (e.keyCode === 9) {
+		} else if (e.keyCode === 8) {
 			e.preventDefault();
 			gotoPrevious();
 		}
@@ -58,18 +58,20 @@
 		}
 		return previousValue;
 	}, undefined);
-	prev = siblingPages.reduce(function (previousValue, currentValue, index, arr) {
-		if (index === 0) {
-			return null;
-		}
-		if (currentValue.url === document.location.pathname) {
-			return previousValue;
-		} 
-		if (index >= arr.length-1) {
-			return previousValue;
-		}
-		return currentValue;
-	});
+	(function () {
+		var prevSlide = null;
+
+		prev = siblingPages.reduce(function (previousValue, currentValue, index, arr) {
+			if (previousValue) {
+				return previousValue;
+			}
+			if (currentValue.url === document.location.pathname) {
+				return prevSlide;
+			}
+			prevSlide = currentValue;
+			return undefined;
+		}, undefined);
+	})();
 
 
 	// handle the the two (and very similar versions) of the reveal slide type
