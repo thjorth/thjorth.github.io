@@ -1,6 +1,6 @@
 ---
 type: reveal-auto
-delay: 3
+delay: 6
 ---
 
 # Still cumbersome

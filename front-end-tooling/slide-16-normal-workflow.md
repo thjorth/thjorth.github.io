@@ -1,7 +1,7 @@
 ---
 title: Task runners
 type: reveal
-delay: 3
+align: left
 ---
 
 Normal workflow:

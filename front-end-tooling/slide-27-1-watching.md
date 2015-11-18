@@ -1,5 +1,4 @@
 ---
-title: using gulp
 ---
 
 {% highlight javascript %}

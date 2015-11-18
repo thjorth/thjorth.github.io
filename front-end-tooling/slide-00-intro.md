@@ -5,7 +5,7 @@ delay: 0.5
 layout: slide/chapter
 ---
 
-by
+Presentation by
 
 # Thomas Hjorth
 
