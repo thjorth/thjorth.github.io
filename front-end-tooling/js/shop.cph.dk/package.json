@@ -1,0 +1,13 @@
+{
+  "name": "cph-precompiler",
+  "author": "Thomas Hjorth",
+  "version": "0.0.1",
+  "description": "Static asset precompiler for CPH.dk",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+	"gulp-rename": "^1.2.2"
+  }
+}

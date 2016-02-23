@@ -24,6 +24,7 @@
 			setTimeout(showPath, 300);
 		}
 	}
+	console.log();
 
 	setTimeout(showPath, 500);
 
