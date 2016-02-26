@@ -1,0 +1,51 @@
+body {
+
+}
+
+.wrapper {
+    max-width: none;
+    padding: 0;
+}
+
+$gutter: 10px;
+
+.deck {
+    background: #fff;
+
+    display: flex;
+
+}
+
+.spot {
+    font-size: 2vw;
+    padding: 2vw 30vw 2vw 2vw;
+
+    background: rgba(0,0,0,0.1);
+
+    flex: 1;
+    margin: $gutter;
+
+    &:first-child {
+        margin-left: 0;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:nth-child(odd) {
+        background: rgba(0,0,0,0.2);
+    }
+
+    height: 30vw;
+
+    &.beo-play {
+        background: #f1cdd1 url(/assets/img/decks/dude.jpg) no-repeat right center;
+        background-size: auto 100%;
+    }
+    &.lakrids {
+        background: #000 url(/assets/img/decks/lakrids.jpg) no-repeat right center;
+        background-size: auto 90%;
+        color: #fff;
+    }
+
+}
