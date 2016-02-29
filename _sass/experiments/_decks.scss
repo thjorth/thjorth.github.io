@@ -7,7 +7,10 @@ body {
     padding: 0;
 }
 
-$gutter: 10px;
+$gutter: 0.5vw;
+$spot-height: 26vw;
+$spot-fontsize: 2vw;
+
 
 .deck {
     background: #fff;
@@ -17,7 +20,7 @@ $gutter: 10px;
 }
 
 .spot {
-    font-size: 2vw;
+    font-size: $spot-fontsize;
     padding: 2vw 30vw 2vw 2vw;
 
     background: rgba(0,0,0,0.1);
@@ -36,7 +39,7 @@ $gutter: 10px;
         background: rgba(0,0,0,0.2);
     }
 
-    height: 30vw;
+    height: $spot-height;
 
     &.beo-play {
         background: #f1cdd1 url(/assets/img/decks/dude.jpg) no-repeat right center;
@@ -46,6 +49,20 @@ $gutter: 10px;
         background: #000 url(/assets/img/decks/lakrids.jpg) no-repeat right center;
         background-size: auto 90%;
         color: #fff;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .deck {
+        display: block;
+    }
+    .spot {
+        width: 36vw;
+        margin: 2*$gutter 0;
+        height: 2*$spot-height;
+        font-size: 2*$spot-fontsize;
+        padding: 4vw 60vw 4vw 4vw;
     }
 
 }
