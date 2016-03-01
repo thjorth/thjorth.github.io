@@ -21,7 +21,10 @@ $spot-fontsize: 2vw;
 
 .spot {
     font-size: $spot-fontsize;
-    padding: 2vw 30vw 2vw 2vw;
+
+    .content {
+        padding: 2vw 30vw 2vw 2vw;
+    }
 
     background: rgba(0,0,0,0.1);
 
@@ -50,6 +53,29 @@ $spot-fontsize: 2vw;
         background-size: auto 90%;
         color: #fff;
     }
+    &.whisky {
+        background: #000 url(/assets/img/decks/whisky2.jpg) no-repeat right center;
+        background-size: auto 100%;
+        color: #fff;
+    }
+
+    &.products {
+        background: transparent;
+    }
+
+    .product {
+        background: #ddd;
+        width: calc(33% - #{$gutter}*1.01);
+        float: left;
+        height: 100%;
+        margin: 0 $gutter;
+        &:first-child {
+            margin-left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
 
 }
 
@@ -58,11 +84,14 @@ $spot-fontsize: 2vw;
         display: block;
     }
     .spot {
-        width: 36vw;
+        //width: 36vw;
         margin: 4*$gutter 0;
         height: 2*$spot-height;
         font-size: 2*$spot-fontsize;
-        padding: 4vw 60vw 4vw 4vw;
+        .content {
+            padding: 4vw 60vw 4vw 4vw;
+        }
+        //
     }
 
 }
