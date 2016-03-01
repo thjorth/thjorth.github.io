@@ -91,7 +91,9 @@ $spot-fontsize: 2vw;
         .content {
             padding: 4vw 60vw 4vw 4vw;
         }
-        //
+        .product {
+            margin: 0 2*$gutter;
+            width: calc(33% - #{$gutter}*2);
+        }
     }
-
 }
