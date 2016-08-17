@@ -13,8 +13,16 @@ markdown: kramdown
 # defaults
 defaults:
   -
-    scope: 
+    scope:
       path: "front-end-tooling"
       type: "pages"
     values:
       layout: "slide"
+      palette: "monster"
+  -
+    scope:
+      path: "front-end-build-pipeline"
+      type: "pages"
+    values:
+      layout: "slide"
+      palette: "alien"

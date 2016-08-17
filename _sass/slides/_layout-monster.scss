@@ -1,16 +1,8 @@
----
----
-
-@import 
-	"slides/typography",
-	"slides/palette"
-;
-
 * {
 	box-sizing: border-box;
 }
 .slide {
-	
+
 }
 html {
 	//font-size: 3ems;
@@ -18,7 +10,7 @@ html {
 }
 body {
 	background: $color5;
-	
+
 }
 
 .page-content {
@@ -114,8 +106,3 @@ ul, ol { text-align: left; margin-left: 4vw; }
 		}
 	}
 }
-
-
-@import 
-	"slides/chapter"
-;
