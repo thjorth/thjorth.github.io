@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+ul {
+    list-style: none;
+    li {
+        font-size: 4vh;
+        position: relative;
+        &::before {
+            content: "★";
+            display: block;
+            position: absolute;
+            left: -4.5vh;
+            top: 0;
+            color: lighten($color4, 5%);
+
+        }
+    }
+}
+
+pre, code {
+    font-size: 1.6vh;
+}

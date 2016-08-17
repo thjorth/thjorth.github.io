@@ -1,5 +1,5 @@
 ---
-title: The modern front end tool stack
+title: Setting up a front end build pipeline
 type: reveal-auto
 delay: 0.5
 layout: slide/chapter
@@ -8,5 +8,3 @@ layout: slide/chapter
 Presentation by
 
 # Thomas Hjorth
-
-based on learnings from Fronteers 2015

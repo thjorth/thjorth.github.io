@@ -1,6 +1,6 @@
 (function () {
 
-	var 
+	var
 		body = document.querySelector("body"),
 		dir = document.location.pathname.replace(/[^\/]+$/, ""),
 		siblingPages,
