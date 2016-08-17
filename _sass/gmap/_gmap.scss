@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 100vw;
+    max-width: none;
+}
+.home {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+    .image-container {
+        position: relative;
+        padding-top: 56.25%;
+    }
+}
+
+
+
+
+#map {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background: #eee;
+}

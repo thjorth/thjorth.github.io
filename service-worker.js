@@ -2,9 +2,14 @@
 // setting up the service worker
 //
 
-var cache = [
-	"/css/main.css"
+var urlsToCache = [
+//	"/map.html",
+	"/css/main.css"//,
+//	"/css/gmap.css",
+//	"/assets/js/gmap.js",
 ];
+
+var CACHE_NAME = "maps-cache-v2";
 
 var version = "v1::";
 var regexes = {
@@ -13,15 +18,26 @@ var regexes = {
 }
 
 self.addEventListener('install', function installer (event) {
-	console.log("installing...");
+	event.waitUntil(
+		caches.open(CACHE_NAME)
+			.then(function (cache) {
+				console.log("Cache opened");
+				return cache.addAll(urlsToCache);
+			})
+	)
 });
 
 self.addEventListener("fetch", function fetcher (event) {
 	//console.log(event.request);
-	if (regexes.cssMain.test(event.request.url)) {
-		//event.respondWith(new Response("body { background: red; }"));
-		//return;
-	}
- 	//event.respondWith(new Response("Hello world!"));
- 	event.respondWith(fetch(event.request));
+	event.respondWith(
+		caches.match(event.request)
+			.then(function (response) {
+				if (response) {
+					return response;
+				}
+
+				return fetch(event.request);
+			})
+	)
+
 });
