@@ -19,6 +19,7 @@ defaults:
     values:
       layout: "slide"
       palette: "monster"
+      fonts: "https://fonts.googleapis.com/css?family=Bangers|Fjalla+One|Roboto+Condensed:400,300,700"
   -
     scope:
       path: "front-end-build-pipeline"
@@ -26,3 +27,4 @@ defaults:
     values:
       layout: "slide"
       palette: "alien"
+      fonts: "https://fonts.googleapis.com/css?family=Anton|Bangers|Fjalla+One|Roboto+Condensed:400,300,700"
