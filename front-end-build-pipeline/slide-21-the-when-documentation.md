@@ -9,4 +9,4 @@ align: left
 
 https://intranet.valtech.com 
 
-(a link will be in the mail)
+(http://bit.ly/2f6knfX)
