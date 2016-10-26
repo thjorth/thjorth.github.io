@@ -7,6 +7,6 @@ delay: 0.2
 * The why
 * The how
 * The when
+* The back end developers?
+* The build environment?
 * The challenges
-* What about back end developers?
-* What about the build environment?

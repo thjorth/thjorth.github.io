@@ -1,11 +1,11 @@
 ---
-title: The how
+title: The challenges
 type: reveal-auto
 delay: 0.2
 align: left
 ---
 
-packages.json
+Revisiting packages.json
 
 {% highlight javascript %}
 {
